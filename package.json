@@ -24,6 +24,12 @@
     "url": "https://github.com/planningcenter/system/issues"
   },
   "devDependencies": {
-    "microbundle": "^0.11.0"
+    "eslint": "^8.13.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.2",
+    "microbundle": "^0.11.0",
+    "prettier": "^2.6.2"
   }
 }
