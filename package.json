@@ -2,8 +2,8 @@
   "name": "@planningcenter/system",
   "version": "0.0.9",
   "description": "Design System tokens and fixed values",
-  "author": "Michael Chan <mijoch@gmail.com>",
-  "homepage": "https://github.com/planningcenter/design/tree/master/planningcenter/system",
+  "author": "Front End Systems Engineering <frontend@planningcenter.com>",
+  "homepage": "https://github.com/planningcenter/system",
   "license": "MIT",
   "main": "dist/system.js",
   "source": "src/system.js",
@@ -15,15 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/planningcenter/design.git"
+    "url": "git+https://github.com/planningcenter/system.git"
   },
   "scripts": {
     "build": "microbundle --format cjs"
   },
   "bugs": {
-    "url": "https://github.com/planningcenter/design/issues"
+    "url": "https://github.com/planningcenter/system/issues"
   },
-  "gitHead": "e6b8e771e36a7a95397bd3682b92358f370b251b",
   "devDependencies": {
     "microbundle": "^0.11.0"
   }
