@@ -1,9 +1,9 @@
 {
   "name": "@planningcenter/system",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "description": "Design System tokens and fixed values",
-  "author": "Michael Chan <mijoch@gmail.com>",
-  "homepage": "https://github.com/planningcenter/design/tree/master/planningcenter/system",
+  "author": "Front End Systems Engineering <frontend@planningcenter.com>",
+  "homepage": "https://github.com/planningcenter/system",
   "license": "MIT",
   "main": "dist/system.js",
   "source": "src/system.js",
@@ -15,16 +15,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/planningcenter/design.git"
+    "url": "git+https://github.com/planningcenter/system.git"
   },
   "scripts": {
-    "build": "microbundle --format cjs"
+    "build": "microbundle --format cjs",
+    "test": "jest"
   },
   "bugs": {
-    "url": "https://github.com/planningcenter/design/issues"
+    "url": "https://github.com/planningcenter/system/issues"
   },
-  "gitHead": "e6b8e771e36a7a95397bd3682b92358f370b251b",
   "devDependencies": {
-    "microbundle": "^0.11.0"
+    "@babel/preset-env": "^7.16.11",
+    "@types/jest": "^27.4.1",
+    "eslint": "^8.13.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.2",
+    "jest": "^27.5.1",
+    "microbundle": "^0.14.2",
+    "prettier": "^2.6.2"
   }
 }
